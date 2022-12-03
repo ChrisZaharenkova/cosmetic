@@ -1,36 +1,29 @@
 /*Font-----*/
-
-@font-face { 
-    font-family: "StolzlBook";
-    src: url("../fonts/StolzlBook/StolzlBook.eot");
-    src: url("../fonts/StolzlBook/StolzlBook.eot?#iefix")format("embedded-opentype"),
-
-    url("../fonts/StolzlBook.ttf") format("truetype");
-    font-style: normal;
+@font-face {
+    font-family: 'stolzlbook';
+    src: url('stolzlbook-webfont.woff2') format('woff2'),
+         url('stolzlbook-webfont.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-  font-family: "Stolzl";
-  font-style: normal;
-  font-weight: 400;
-
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("Stolzl"),
-       /* Если не получилось, загрузит woff2 */
-       /* Если браузер не поддерживает woff2, загрузит woff */
-       url("/fonts/stolzl_regular.otf") format("otf"),
+    font-family: 'Stolzl';
+    src: url('stolzl_medium-webfont.woff2') format('woff2'),
+         url('stolzl_medium-webfont.woff') format('woff');
+    font-weight:500;
+    font-style: normal;
 
 }
-@font-face {
-  font-family: "Stolzl";
-  font-style: normal;
-  font-weight: bold;
 
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("Stolzl"),
-       /* Если не получилось, загрузит woff2 */
-       url("/fonts/stolzl_medium.otf") format("otf"),
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('stolzl_regular-webfont.woff2') format('woff2'),
+         url('stolzl_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -66,7 +59,7 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "StolzlBook";
+  font-family: "stolzlbook";
   font-weight: 400;
   color: rgba(0, 0, 0, 1); 
   line-height: 169%;
