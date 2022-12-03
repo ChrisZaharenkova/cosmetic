@@ -762,7 +762,7 @@ height: 61px;
     height: 100%;
     overflow: auto;
     background-color: #000000d4;
-    padding: 70px 10px 20px 50px;
+    padding: 70px 10px 20px 0px;
     transition: all 0.3s ease 0s;
   }
   .header__menu.active{
