@@ -14,7 +14,7 @@
     src: url('../fonts/stolzl_medium-webfont.woff2') format('woff2'),
          url('../fonts/stolzl_medium.otf') format('otf'),
          url('../fonts/stolzl_medium-webfont.woff') format('woff');
-    font-weight:500;
+    font-weight:bold;
     font-style: normal;
 
 }
