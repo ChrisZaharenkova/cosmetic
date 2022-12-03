@@ -602,7 +602,7 @@ height: 61px;
   /*==========================================*/
   .item-benefits__text{font-size: 16px;}
   .item-benefits__image{
-    width: 32px;
+    width: 35px;
     height:35px;
   }
   .benefits__item{gap: 30px;grid-template-columns: 90px;}
@@ -699,6 +699,27 @@ height: 61px;
   .body-rewiews__item{
     padding: 25px;
   }
+     /*=======================================*/
+  .benefits__row{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .benefits__column{padding: 30px}
+  .benefits__item{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 130px 1fr;
+  }
+  .item-benefits__text{
+    grid-row:1/2 ;
+    grid-column: 2/3;
+    transform: none;
+  }
+  ._end{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+   .page__rewiews_2{
+       margin:-560px 0 0 0}
   /*========================================*/
   .page__locate{padding: 50px 0;}
   .body-locate__title{font-size: 24px;}
